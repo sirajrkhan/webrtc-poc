@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>WebRTC Proof of Concept</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -80,7 +81,6 @@
         <div class="navbar-header">
           <a class="navbar-brand" href="#">WebRTC Proof-of-Concept</a>
         </div>
-        </div>
       </div>
     </nav>
     <div class="container-fluid">
@@ -102,16 +102,16 @@
               </div>
             </div>
             <div id="step2" class="row">
-              <div class="col-xs-12 col-sm-6">
+              <div class="col-sm-12">
                 <h3>Step 2 - Call</h3>
                 <form class="form-inline">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Call user id..." id="callto-id">
+                    <input type="text" class="form-control" placeholder="Call user id..." id="callto-id" />
                     <a href="#" class="btn btn-success" id="make-call">Call</a>
                   </div>
                 </form>
               </div>
-              <div class="col-sm-12 col-md-6">
+              <div class="col-sm-12">
                 <h3>... Or have someone call you</h3>
                 <p>Your id: <span id="my-id">...</span></p>
                 <p>Share this id with others so they can call you.</p>
